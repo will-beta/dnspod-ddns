@@ -1,6 +1,6 @@
-FROM python:3-alpine
+FROM python
 
-MAINTAINER strahe <u@strahe.com>
+MAINTAINER willbeta
 
 ADD ddns.py ddns.py
 
