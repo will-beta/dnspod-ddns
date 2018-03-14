@@ -39,7 +39,7 @@ EMAIL=you@email.com
 docker run -d \
     --restart=always \
     --name=dnspod-ddns \
-    -v your_ddnsrc_file_path:/etc/dnspod/ddnsrc\
+    -v foler_contains_your_ddnsrc_file:/etc/dnspod/ \
      strahe/dnspod-ddns
  ```
 
